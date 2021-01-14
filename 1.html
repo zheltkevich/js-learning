@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Урок №1</title>
 </head>
+
 <body>
     <h1>01. Введение в язык JavaScript. Синтаксис. Переменные</h1>
     <a href="index.html">&#8629; К оглавлению</a>
@@ -13,5 +14,103 @@
         <a href="2.html">Следующий урок &#8594;</a>
     </p>
     <hr>
+
+    <div class="content">
+        <div class="content__wrapper">
+            <h2>JavaScript</h2>
+            <button onClick="alert('Third JS connection type')">Third type JS connection</button><br>
+            <a href="javascript:alert('Fourth JS connection type')">Fourth type JS connection</a><br>
+            <a href="javascript:new Date().toLocaleTimeString()" target="_blank">Show locale time</a>
+        </div>
+
+        <h3>Некоторые зарезервированные ключевые слова</h3>
+        <ul>
+            <li>break</li>
+            <li>case</li>
+            <li>catch</li>
+            <li>continue</li>
+            <li>debugger</li>
+            <li>default</li>
+            <li>delete</li>
+            <li>do</li>
+            <li>else</li>
+            <li>finaly</li>
+            <li>for</li>
+            <li>function</li>
+            <li>inctanceof</li>
+            <li>new</li>
+            <li>return</li>
+            <li>switch</li>
+            <li>this</li>
+            <li>throw</li>
+            <li>try</li>
+            <li>typeof</li>
+            <li>var</li>
+            <li>void</li>
+            <li>while</li>
+            <li>with</li>
+            <li>let</li>
+            <li>const</li>
+            <li></li>
+            <li></li>
+        </ul>
+
+        <h3>Типы данных</h3>
+        <ul>
+            <li>
+                <h4>Простые</h4>
+                <ul>
+                    <li>Строковые: <b>'hello', "hello"</b></li>
+                    <li>Числовые: <b>12345</b></li>
+                    <li>Логические/булевые: <b>true (истина), false(ложь)</b></li>
+                    <li>Специальные: <b>null (пустое значение), undefined (неопределенное значениие)</b></li>
+                </ul>
+            </li>
+            <li>
+                <h4>Объекты</h4>
+                <ul>
+                    <li><b>Объект</b> - это набор свойств, каждое из которых имеет имя и значение<br>
+                    Свойство объекта - это некая переменная объекта, которая ведет себя как обычная переменная
+                    </li>
+                    <li>
+                        <b>Массив</b> - это упорядоченный набор определенных свойств и значений
+                    </li>
+                    <li>
+                        <b>Функция</b> - это объект, к которому привязан некий исполняемый код<br>
+                        Функция может вызываться для выполнения своего же кода<br>
+                        При выполнении кода возвращается значение, которое так же может быть переменной и использоваться далее
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>Приведение типов</h3>
+        <p>
+            1 переменная = 50 <br>
+            2 переменная = '50'
+        </p>
+        <ul> 
+            <li>
+                <button onClick="alert(50 + '50')">Сложение</button>
+            </li>
+            <li>
+                <button onClick="alert(50 - '50')">Вычитание</button>
+            </li>
+            <li>
+                <button onClick="alert(50 * '50')">Умножение</button>
+            </li>
+            <li>
+                <button onClick="alert(50 / '50')">Деление</button>
+            </li>
+            <li> Здесь вторая переменная = ' штук'
+                <button onClick="alert(50 + ' штук')">Сложение</button>
+            </li>
+        </ul>
+    </div>
+
+    <script src="js/1.js" type="text/javascript"></script>
+    <script>
+        alert('Second JS connection type');
+    </script>
 </body>
 </html>
