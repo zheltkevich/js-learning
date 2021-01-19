@@ -7,7 +7,7 @@
 
 
 
-/* ===== Условие if ===== */
+/* ===== Условная инструкция if ===== */
 
 
 // let c = 0;
@@ -25,7 +25,7 @@
 
 
 
-/* ===== Условие if, else, else if ===== */
+/* ===== Условная инструкция if, else, else if, ===== */
 
 // if(a) {
 //     if(a > 10) {
@@ -114,6 +114,11 @@
 // let d = 2
 // let i = 0;
 
+
+
+/* ===== Переходы break и continue ===== */
+
+
 // for(; i < 9; i++) {
 //     d = d * 2;
 //     console.log(i);
@@ -133,3 +138,25 @@
 //     }
 //     console.log(i);
 // }
+
+
+
+/* ===== Вложенные циклы for ===== */
+
+
+let str = '<table border="1px" width="80%" height="80%" style="margin: 40px auto;">';
+
+for(let i = 1; i < 10; i++) {
+    str = str + '<tr>';
+
+    for(let j = 1; j < 10; j++) {
+        str = str + '<td>';
+        str = str + i * j;
+        str = str + '</td>';
+    }
+    str = str + '</tr>';
+}
+str = str +'</table>';
+
+let el = document.getElementById('table');
+el.innerHTML = el.innerHTML + str;
