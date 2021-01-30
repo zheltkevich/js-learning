@@ -77,3 +77,14 @@ hr {
     border-radius: 15px;
     background-color: rgb(169, 240, 193);
 }
+
+.result--massives {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.result--indexes {
+    font-size: 20px;
+    font-style: italic;
+}
