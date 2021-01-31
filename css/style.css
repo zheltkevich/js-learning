@@ -66,6 +66,24 @@ hr {
     border-radius: 15px;
 }
 
+.lesson__content li {
+    overflow: auto;
+}
+
+.lesson__table-wrapper {
+    min-width: 500px;
+}
+
+.lesson__table-wrapper--second {
+    min-width: 300px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+.lesson__table {
+    /* overflow: hidden; */
+}
+
 .result {
     display: block;
     width: 80%;
