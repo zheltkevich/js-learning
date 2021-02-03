@@ -97,6 +97,10 @@ hr {
     background-color: rgb(169, 240, 193);
 }
 
+.result--big {
+    font-size: 20px;
+}
+
 .result--massives {
     display: flex;
     justify-content: space-between;
