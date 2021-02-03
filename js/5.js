@@ -153,4 +153,4 @@ for(let row = 0; row < table.length; row++) {
 };
 
 alert(table[5][6]);
-document.write('<span class="result">' + table[5][6] + '</span>' + '</span>');
+document.write('<span class="result">' + table[5][6] + '</span>');
