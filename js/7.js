@@ -47,7 +47,6 @@ document.write('<span class="result">' + monthNow + '</span>');
 
 let time = date.getTime(); // время в милисекундах от 1 января 1970 года
 let timeZone = date.getTimezoneOffset(); // разница времени в минутах от гринвича
-alert(time);
-alert(timeZone);
+
 document.write('<span class="result result--big">' + 'Время в милисекундах от 1 января 1970 года: ' + time + '</span>');
 document.write('<span class="result result--big">' + 'Разница времени в минутах от гринвича: ' + timeZone + '</span>');
